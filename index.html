@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chaitanya Kurapati | Portfolio</title>
+    <title>Hari Hara Chaitanya Kurapati | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Chaitanya Kurapati</h1>
-            <p>Compiler Optimization | SDET | System Performance Engineering</p>
+            <p>Software Engineer | Systems/Compiler Engineering</p>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -24,39 +24,105 @@
 
     <section id="about" class="container">
         <h2>About Me</h2>
-        <p>I am a graduate student passionate about compiler optimization, performance engineering, and system-level programming. This portfolio showcases my work in compiler autotuning, SDET automation, and academic projects focused on performance profiling.</p>
-    </section>
+        <p>Hari Hara Chaitanya Kurapati is a dedicated and versatile professional with expertise in Software Development, Embedded Systems, and Compiler Construction. He holds a Master of Science degree in Computer Engineering at Colorado State University. His skills include C/C++, Python, and Java, with hands-on experience in developing compilers, performance benchmarking, and optimizing embedded systems. Hari has contributed significantly at OpenText by automating large-scale SaaS test frameworks and enhancing DevOps pipelines. His projects in compiler design, test automation, and system performance engineering highlight his ability to work across both high-level and low-level system domains, making him a valuable asset to any development team.    </section>
 
     <section id="projects" class="container">
-        <h2>Projects</h2>
-        <div class="project-item">
-            <h3>Compiler Autotuning for Polybench</h3>
-            <p>Developed an autotuning script to optimize C programs using OpenMP and PAPI counters for performance analysis. Achieved 27x performance improvement over the original kernel.</p>
-            <a href="https://github.com/username/autotuning-polybench" target="_blank">View on GitHub</a>
-        </div>
-        <div class="project-item">
-            <h3>Core Content Automation (OpenText)</h3>
-            <p>Designed and automated test frameworks for multi-tenant SaaS applications using Java, TestNG, and Selenium, reducing regression test execution by 30%.</p>
-        </div>
-    </section>
+    <h2>Projects</h2>
 
-    <section id="experience" class="container">
-        <h2>Work Experience</h2>
-        <div class="job-item">
-            <h3>OpenText | SDET</h3>
-            <p>Built and maintained automated test frameworks, CI/CD pipelines, and performance profiling tools for enterprise SaaS platforms.</p>
-        </div>
-        <div class="job-item">
-            <h3>Graduate Research | Performance Profiling</h3>
-            <p>Conducted research on performance bottlenecks in numerical kernels using Polybench and PAPI, optimizing cache utilization and OpenMP parallelization.</p>
-        </div>
-    </section>
+    <div class="project-item">
+        <h3>Mini-Java Compiler</h3>
+        <p><strong>Skills:</strong> Data Structures and Algorithms, Java, Linux, Assembly</p>
+        <ul>
+            <li>Designed and implemented a multi-pass Java compiler, translating a subset of Object-Oriented Java to MIPS assembly through incremental lowering.</li>
+            <li>Parsed Java code and generated Abstract Syntax Trees (AST) using JTB and JavaCC.</li>
+            <li>Ensured semantic correctness by verifying type rules and consistency across the source code.</li>
+            <li>Developed Control Flow Graphs (CFG) and implemented a Linear Scan Register Allocation algorithm to optimize performance.</li>
+        </ul>
+    </div>
+
+    <div class="project-item">
+        <h3>Edge Abnormal Event Detection in Live Video Stream</h3>
+        <p><strong>Skills:</strong> Python, Deep Learning, TensorFlow, TensorFlow Lite, On-device Inference</p>
+        <ul>
+            <li>Developed and deployed an anomaly detection system for pedestrian video surveillance using CNN and LSTM networks.</li>
+            <li>Achieved 87% F1 score on embedded deployment via TensorFlow Lite on Raspberry Pi 4.</li>
+            <li>Focused on model optimization, data pipelines, and real-time anomaly detection.</li>
+        </ul>
+        <a href="https://github.com/KHariHaraChaitanya/Abnormal-event-detection-in-video-streams" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-item">
+        <h3>Portfolio Management Using RNNs</h3>
+        <p><strong>Skills:</strong> Machine Learning</p>
+        <ul>
+            <li>Implemented a portfolio management system using RNNs to model stock price movements and optimize portfolios.</li>
+            <li>Utilized LSTMs to capture long-term temporal dependencies in financial data.</li>
+            <li>Designed and evaluated models using real-world stock market data for trading and investment strategies.</li>
+        </ul>
+        <a href="https://github.com/KHariHaraChaitanya/Invest-Portfolio-Optimization" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-item">
+        <h3>Compiler Autotuning for Polybench Benchmark Suite</h3>
+        <p><strong>Skills:</strong> C, OpenMP, Linux, Performance Engineering</p>
+        <ul>
+            <li>Automated compilation and performance profiling of Polybench benchmarks using GCC and OpenMP.</li>
+            <li>Integrated PAPI counters to analyze hardware performance metrics.</li>
+            <li>Explored thread scalability and CPU/memory usage bottlenecks through extensive tuning.</li>
+        </ul>
+        <a href="https://github.com/KHariHaraChaitanya/Compiler-Autotuning-for-Polybench-Benchmark-Suitet" target="_blank">View on GitHub</a>
+    </div>
+
+</section>
+
+
+   <section id="experience" class="container">
+    <h2>Work Experience</h2>
+
+    <div class="job-item">
+        <h3>Software Engineer in Test</h3>
+        <p><strong>Company:</strong> OpenText Corporation | <em>October 2020 - December 2022</em></p>
+        <ul>
+            <li>Designed and developed test automation infrastructure for a multi-tenant SaaS application, Enterprise Core Content, using Java, TestNG, Spring Boot, JBehave (BDD), REST Assured, and Selenium to enable large-scale enterprise testing.</li>
+            <li>Reduced nightly test execution time by 30% by implementing parallel test execution frameworks and optimizing test case orchestration.</li>
+            <li>Built and maintained CI/CD pipelines using Jenkins, Shell scripting, and Docker, automating build validation and accelerating release cycles.</li>
+            <li>Integrated SonarQube into the pipeline for static code analysis, identifying bugs and vulnerabilities early in the development process.</li>
+            <li>Achieved 100% test coverage by incorporating Test-Driven Development (TDD) with JUnit, ensuring robust and reliable software releases.</li>
+            <li>Used Wireshark and JMeter to diagnose backend microservice performance issues, enhancing the OT2 cloud platform.</li>
+            <li>Designed and executed load, stress, and scalability tests to optimize application performance by identifying infrastructure bottlenecks.</li>
+            <li>Developed automated backward migration tests for seamless transitions from Salesforce to SaaS platforms, preventing data loss.</li>
+            <li>Led the development of a Python and Robot Framework-based keyword-driven test automation framework, mentoring interns throughout the project.</li>
+        </ul>
+    </div>
+
+    <div class="job-item">
+        <h3>Software Engineering Intern</h3>
+        <p><strong>Company:</strong> OpenText Corporation | <em>February 2020 - September 2020</em></p>
+        <ul>
+            <li>Refactored the test framework in C#, NUnit, .NET Core, and Selenium, reducing maintenance time for Appworks Process 360.</li>
+            <li>Developed a Behavior Driven Development (BDD) framework with Specflow, C#, and Selenium, eliminating the need for SmartBear Test Complete, saving licensing costs.</li>
+            <li>Configured automated email reporting using Extent Reports and Jenkins to provide daily updates on test results.</li>
+            <li>Automated over 50 REST API tests using Postman and Newman, enhancing early defect detection in the development lifecycle.</li>
+        </ul>
+    </div>
+
+    <div class="job-item">
+        <h3>Software Engineering Intern</h3>
+        <p><strong>Company:</strong> Cregx | <em>June 2019 - September 2019</em></p>
+        <ul>
+            <li>Developed a full-stack web application for the video advertising product Businessads using HTML, CSS, Embedded JavaScript (EJS), Node.js, Express, and MongoDB.</li>
+            <li>Implemented core advertising features to streamline workflows and improve platform usability.</li>
+            <li>Deployed the application on Google Cloud Platform (GCP) and configured infrastructure to ensure scalable and reliable performance.</li>
+        </ul>
+    </div>
+</section>
+
 
     <section id="contact" class="container">
         <h2>Contact</h2>
         <p>Email: chaitanya.kurapati@example.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/chaitanyakurapati" target="_blank">linkedin.com/in/chaitanyakurapati</a></p>
-        <p>GitHub: <a href="https://github.com/username" target="_blank">github.com/username</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/chaitanya-khh" target="_blank">linkedin.com/in/chaitanyakurapati</a></p>
+        <p>GitHub: <a href="https://github.com/KHariHaraChaitanya" target="_blank">github.com/username</a></p>
     </section>
 
     <footer>
